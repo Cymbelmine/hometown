@@ -1,0 +1,88 @@
+/**
+Palette: https://unsplash.com/es/fotos/MHgWUmxURgA
+LIGHT: #DAD2DD
+RED: #6E1203
+BLACK: #0E0403
+PINK: #CC127A
+BROWN: #421F1F
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Sofia Sans', sans-serif;
+}
+#hero {
+     background-image: url(https://images.unsplash.com/photo-1546727587-e5b2900fea16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+     background-size: cover;
+     padding: 80px 70px;
+}
+#title {
+    display: flex;
+    background: #DAD2DD;
+    width: 200px;
+    height: 34px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+#subtitle {
+    display: flex;
+    margin: 20px auto;
+    width: 355px;
+    height: 55px;
+    background: #DAD2DD;
+    padding: 5px 10px;
+    border-radius: 5px;  
+}
+#activities {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #DAD2DD;
+    border-bottom: 5px solid #CC127A;
+}
+.activity {
+    width: 200px;
+    margin: 10px auto;
+    padding: 20px;
+    color: #070103;
+    background-color: #DAD2DD;
+    color: #421F1F;
+}
+.activity-title {
+}
+.activity-description {
+}
+ h3 {
+     background-color: #DAD2DD;
+     margin: 0;
+     padding: 38px;
+     height: 20px;
+     color: #CC127A;
+     line-height: 30px;
+ }   
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.card {
+    width: 400px;
+    margin: 70px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #EBBCE3;
+    color: #421F1F;
+    border-bottom: 6px solid #CC127A;
+}
+.avatar {
+    width: 170px;
+    height: 170px;
+    border-radius: 35%;
+    margin: 20px 10px;
+}
+
